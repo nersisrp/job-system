@@ -3,7 +3,7 @@ g_bus_routes =
 	{
 		stops = {
 			"Unity Station - (Start of Service).",
-			"Idlewood Gas, Idlewood.",
+			"Idlewood Gas, Idlewood.", 
 			"Ten Green Bottles & Grove St, Ganton.",
 			"Liverpool Rd., Ganton.",
 			"Saints Blvd.",
