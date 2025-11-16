@@ -1,0 +1,99 @@
+<meta>
+    <script src="s_job_system.lua" type="server" />
+    <script src="c_job_system.lua" type="client" protected="true" />
+    <!--<script src="s_job_commands.lua" type="server"/>-->
+    
+    <script src="s_job_framework.lua" type="server" />
+    <script src="c_job_framework.luac" type="client" protected="true" />
+    
+    
+    <script src="trash/c_trash.luac" type="client" />
+    <script src="trash/s_trash.lua" type="server" protected="true" />
+    
+    <script src="temiz/c_temiz.luac" type="client" />
+    <script src="temiz/s_temiz.lua" type="server" protected="true" />
+    
+    <script src="para/c_para.luac" type="client" />
+    <script src="para/s_para.lua" type="server" protected="true" />
+    
+    <script src="posta/c_posta.luac" type="client" />
+    <script src="posta/s_posta.lua" type="server" protected="true" />
+    
+    <script src="motor/c_motor.luac" type="client" />
+    <script src="motor/s_motor.lua" type="server" protected="true" />
+    
+    <script src="sigara/c_sigara.lua" cache="false" type="client" protected="true" />
+    <script src="sigara/s_sigara.lua" type="server" protected="true" />
+    
+    <script src="icki/c_icki.lua" cache="false" type="client" protected="true" />
+    <script src="icki/s_icki.lua" type="server" protected="true" />
+    <map src="sigara/sigara.map" type="map" protected="true" />
+    
+    <script src="tir/c_tir.luac" type="client" protected="true" />
+    <script src="tir/s_tir.lua" type="server" protected="true" />
+    
+    
+    <script src="tir2/c_tir.lua" type="client" cache="false" protected="true" />
+    <script src="tir2/s_tir.lua" type="server" protected="true" />
+    
+    
+    <script src="gazate/c_gazateci.lua" type="client" protected="true" />
+    <script src="gazate/s_gazateci.lua" type="server" protected="true" />
+    <script src="kamyon/c_kamyon.luac" type="client" protected="true" />
+    <script src="kamyon/s_kamyon.lua" type="server" protected="true" />
+    
+    
+    <script src="otobus/c_otobus.lua"  cache="false" type="client" protected="true" />
+    <script src="otobus/s_otobus.lua" type="server" protected="true" />
+    
+    <script src="beton/c_beton.luac" type="client" protected="true" />
+    <script src="beton/s_beton.lua" type="server" protected="true" />
+    <script src="pizza/s_pizzaci.luac" type="client" protected="true" />
+    <script src="pizza/s_pizza_job.luac" type="client" protected="true" />
+    <script src="pizza/c_pizzaci.luac" type="client" protected="true" />
+    <script src="pizza/c_pizza_job.luac" type="client" protected="true" />
+    
+    <script src="deniz/c_deniz.luac" type="client" protected="true" />
+    <script src="deniz/s_deniz.lua" type="server" protected="true" />
+    
+    <map src="fishing/balik-system-map/balik-system-map.map" dimension="0"></map>
+    <script src="fishing/balik-system-map/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="fishing/balik-system-map/mapEditorScriptingExtension_c.luac" type="client" validate="false"></script>
+    <script src="fishing/s_fishing_job.lua" type="server" />
+    
+    
+    <script src="mechanic/s_mechanic_job.lua" type="server" />
+    <script src="mechanic/s_mechanic_previews.lua" type="server" />
+    <script src="mechanic/c_mechanic_job.luac" type="client" />
+    
+    <script src="taxi/s_taxi_job.lua" type="server" />
+    <script src="taxi/c_taxi_job.luac" type="client" />
+    
+    <script src="taximeter/g_taximeter.lua" type="server" />
+    <script src="taximeter/g_taximeter.lua" type="client" cache="false" />
+    <script src="taximeter/s_taximeter.lua" type="server" />
+    <script src="taximeter/c_taximeter.lua" type="client" cache="false" />
+    <file src="taximeter/images/base_driver.png" />
+    <file src="taximeter/images/base_pax.png" />
+    <file src="taximeter/images/btn.png" />
+    <file src="taximeter/images/btn_on.png" />
+    <file src="taximeter/images/btn_active.png" />
+    
+    <script src="bus/g_bus_routes.lua" type="client" cache="false"/>
+    <script src="bus/g_bus_routes.lua" type="server" />
+    <script src="bus/c_bus_job.lua" type="client" cache="false" />
+    <script src="bus/s_bus_job.lua" type="server" />
+    
+    
+    <script src="locksmith/s_locksmith_job.lua" type="server" />
+    <script src="locksmith/c_locksmith_job.luac" type="client" />
+    <export function="fetchJobInfoForOnePlayer" type="server" />
+    
+    <script src="jobs_g.luac" type="client" />
+    <script src="jobs_g.lua" type="server" />
+    
+    <export function="getJobTitleFromID" type="server" />
+    <export function="getJobTitleFromID" type="client" />
+    
+    <min_mta_version server="1.3.4-0.00000" client="1.5.6-9.18728" />
+</meta>
