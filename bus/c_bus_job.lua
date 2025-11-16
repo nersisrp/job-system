@@ -1,4 +1,4 @@
-local line, route, m_number, curCpType = nil
+local line, route, m_number, curCpType = nil 
 
 local busMarker, busNextMarker = nil
 local busBlip, busNextBlip = nil
